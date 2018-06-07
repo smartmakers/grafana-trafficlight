@@ -1,0 +1,32 @@
+{
+    "type": "panel",
+    "name": "TrafficLight",
+    "id": "smartmakers-trafficlight-panel",
+
+    "info": {
+        "description": "Add colour indicator for measurements to a picture in Grafana",
+        "author": {
+            "name": "Volodymyr Manilo"
+        },
+        "keywords": ["trafficlight", "picture", "panel"],
+        "logos": {
+            "small": "img/trafficlight_logo.jpg",
+            "large": "img/trafficlight_logo.jpg"
+        },
+        "links": [
+            { "name": "Project site", "url": "https://github.com/smartmakers/grafana-trafficlight" },
+            { "name": "MIT License", "url": "https://github.com/smartmakers/grafana-trafficlight/blob/master/LICENSE" },
+            { "name": "MIT License", "url": "https://github.com/smartmakers/grafana-trafficlight/blob/master/LICENSE_additional" }
+        ],
+        "screenshots": [
+            { "name": "Showcase", "path": "img/view.png" }
+        ],
+        "version": "1.0.0",
+        "updated": "2018-06-07"
+    },
+
+    "dependencies": {
+        "grafanaVersion": "3.x.x",
+        "plugins": []
+    }
+}
